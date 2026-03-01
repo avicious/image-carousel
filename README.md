@@ -18,16 +18,6 @@ A functional, responsive carousel component built with `React`, `lucide-react` f
 - **Navigation:** `useCallback` is used to define nextImage and prevImage functions, ensuring they are memoized and efficient. These functions handle the logic for looping back to the start or end of the image array.
 - **Keyboard Interaction:** A `useEffect` hook adds an event listener for keydown events, allowing users to navigate using the left and right arrow keys.
 
-## 📦 Installation
-
-Make sure you have `lucide-react` installed in your project:
-
-```bash
-npm install lucide-react
-# or
-yarn add lucide-react
-```
-
 ## 🛠️ Usage
 
 1. Clone the Repository:
