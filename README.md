@@ -1,6 +1,6 @@
 # Image Carousel
 
-A functional, responsive carousel component built with React, lucide-react for icons, and CSS animations for a smooth progress bar experience.
+A functional, responsive carousel component built with `React`, `lucide-react` for icons, and CSS animations for a smooth progress bar experience.
 
 ## 🚀 Features
 
@@ -12,11 +12,11 @@ A functional, responsive carousel component built with React, lucide-react for i
 
 ## 🧠 How It Works
 
-- **State Management:** Uses React's useState to track the currently displayed image index.
-- **Auto-Play Logic:** Employs useEffect to set up a setInterval that triggers the next image function based on the defined INTERVAL_TIME. The timer is cleaned up using clearInterval on component unmount to prevent memory leaks.
-- **Progress Bar:** A div element is animated using CSS keyframes. The animation duration is synchronized with the JavaScript setInterval time to create a visual countdown.
-- **Navigation:** useCallback is used to define nextImage and prevImage functions, ensuring they are memoized and efficient. These functions handle the logic for looping back to the start or end of the image array.
-- **Keyboard Interaction:** A useEffect hook adds an event listener for keydown events, allowing users to navigate using the left and right arrow keys.
+- **State Management:** Uses React's `useState` to track the currently displayed image index.
+- **Auto-Play Logic:** Employs `useEffect` to set up a `setInterval` that triggers the next image function based on the defined `INTERVAL_TIME`. The timer is cleaned up using `clearInterval` on component unmount to prevent memory leaks.
+- **Progress Bar:** A div element is animated using CSS keyframes. The animation duration is synchronized with the JavaScript `setInterval` time to create a visual countdown.
+- **Navigation:** `useCallback` is used to define nextImage and prevImage functions, ensuring they are memoized and efficient. These functions handle the logic for looping back to the start or end of the image array.
+- **Keyboard Interaction:** A `useEffect` hook adds an event listener for keydown events, allowing users to navigate using the left and right arrow keys.
 
 ## 📦 Installation
 
