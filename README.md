@@ -2,7 +2,7 @@
 
 A functional, responsive carousel component built with `React`, `lucide-react` for icons, and CSS animations for a smooth progress bar experience.
 
-## 🚀 Features
+## Features
 
 - **Auto-Play:** Automatically switches images every 5 seconds.
 - **Progress Bar:** Visual indicator showing time remaining until the next image.
@@ -10,7 +10,7 @@ A functional, responsive carousel component built with `React`, `lucide-react` f
 - **Keyboard Support:** Use Left/Right arrow keys to navigate.
 - **Infinite Loop:** Wraps around to the first image after the last one.
 
-## 🧠 How It Works
+## How It Works
 
 - **State Management:** Uses React's `useState` to track the currently displayed image index.
 - **Auto-Play Logic:** Employs `useEffect` to set up a `setInterval` that triggers the next image function based on the defined `INTERVAL_TIME`. The timer is cleaned up using `clearInterval` on component unmount to prevent memory leaks.
@@ -18,7 +18,7 @@ A functional, responsive carousel component built with `React`, `lucide-react` f
 - **Navigation:** `useCallback` is used to define nextImage and prevImage functions, ensuring they are memoized and efficient. These functions handle the logic for looping back to the start or end of the image array.
 - **Keyboard Interaction:** A `useEffect` hook adds an event listener for keydown events, allowing users to navigate using the left and right arrow keys.
 
-## 🛠️ Usage
+## Usage
 
 1. Clone the Repository:
 
