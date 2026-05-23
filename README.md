@@ -2,6 +2,10 @@
 
 A functional, responsive carousel component built with `React`, `lucide-react` for icons, and CSS animations for a smooth progress bar experience.
 
+## Live Demo
+
+**Check out the live version of this project here:** [avicious.github.io/image-carousel/](https://avicious.github.io/image-carousel/)
+
 ## Features
 
 - **Auto-Play:** Automatically switches images every 5 seconds.
